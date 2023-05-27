@@ -16,12 +16,8 @@ var x = setInterval(function () {
 		hours < 10 ? `0${hours}` : hours
 	}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;
 
-	if (hours < 4 && hours >= 2) {
-		document.getElementById("countdown").style.color = "#EC6A5B";
-	}
-
 	if (hours < 2) {
-		document.getElementById("countdown").style.color = "red";
+		document.getElementById("countdown").style.color = "#FF4B22";
 	}
 	if (distance < 0) {
 		clearInterval(x);
