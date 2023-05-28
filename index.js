@@ -1,4 +1,4 @@
-let hackathonEndString = "May 28, 2023 12:30:00";
+let hackathonEndString = "May 28, 2023 12:45:00";
 
 var countDownDate = new Date(hackathonEndString).getTime();
 
